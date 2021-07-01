@@ -1,0 +1,110 @@
+[000000] codo_init
+[000000]   platform: Windows
+[000001]   Found config.txt
+[000001]   
+[000001]     01 window_size 0 0 // window width, height
+[000001]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000001]     03 show_fps 0 // Draw frames per second in the corner
+[000001]     04 windowed 1 // 1 to start up in windowed mode
+[000001]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000001]     new window position: -1, -1
+[000001]     06 frameless 0 // 1 to use a window with no frame
+[000001]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 fullscreen
+[000001]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000001]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+[000001]     10 sessions 24 // number of times program has been run
+[000001]     11 rmb_key 0 // 0 for none  226 for LALT
+[000001]     12 desktop_path 
+[000001]     13 sound_volume 256 // 0..256
+[000001]     14 music_volume 256 // 0..256
+[000001]     15 mix_buffer_size 1024
+[000001]     16 version 0.2.2c
+[000001]     17 volume 256
+[000001]     18 root_path C:/Users/julie/AppData/Roaming/pico-8/carts/
+[000001]     19 cdata_path C:/Users/julie/AppData/Roaming/pico-8/cdata/
+[000001]     20 joystick_index 0
+[000001]     21 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000001]     22 live_notes 0
+[000001]     23 cursor_snap 0
+[000001]     24 gui_theme 0
+[000001]     25 screenshot_scale 4
+[000001]     26 gif_scale 3
+[000001]     27 gif_len 8
+[000001]     28 gif_reset_mode 0
+[000001]     29 host_framerate_control 1
+[000001]     30 splore_filter 0
+[000001]     31 tab_width 1
+[000001]     32 draw_tabs 0
+[000001]     33 record_activity_log 1
+[000001]     34 allow_function_keys 1
+[000001]     35 check_for_cart_updates 1
+[000001]   
+[000001]   codo_system_init
+[000087]   Compiled against SDL version: 2.0.2
+[000087]   Linked against SDL version:   2.0.9
+[000087]   Current video driver: windows
+[000087]   codo_reset_timer
+[000087]   codo_gui_init
+[000087]   codo_keys_init
+[000087]   codo_text_init
+[000089]   codo_video_init
+[000089]   codo_mouse_init
+[000089]   codo_joystick_init
+[000090]   Reading controller mappings: C:/Users/julie/AppData/Roaming/pico-8/sdl_controllers.txt
+[000090]   searching for joysticks
+[000090]     found 0 joysticks
+[000090]   ok
+[000090] ok
+[000112] codo_load_pod: C:/Program Files/pico-8/pico8.dat ok 
+[000118] codo_set_screen 128 128 8 100
+[000118]  window size: 640 540
+[000305]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer direct3d:
+   flags: 0x0000000E ( |  | )
+   texture formats (3): ARGB8888, YV12, IYUV
+   max texture size: 16384x16384
+[000310]  desktop size: 1366 768
+[000310] ok
+[000316] codo_sound_init mix_buffer_size: 1024
+[000316] codo_sound_init
+[000316] SDL_INIT_AUDIO ok
+[000619] SDL_OpenAudio ok
+[000619]  freq:22050
+ channels:1
+[000619] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000619] Current audio driver: wasapi
+[000619] splore_init
+[000619] could not load favourites file: C:/Users/julie/AppData/Roaming/pico-8/favourites.txt
+[007357] saving screenshot to: C:/Users/julie/OneDrive/Bureau/untitled_2_0.png
+[007546] codo_save_png result: 0  file: C:/Users/julie/OneDrive/Bureau/untitled_2_0.png
+[022264] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[061691] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[112826] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[666829] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[712528] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[779552] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[860537] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1003164] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1012773] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1027328] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1032870] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1040354] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1291505] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1312776] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1369599] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1413879] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1441676] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1678120] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1767019] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1791174] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1845577] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1966090] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[1980327] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2027268] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2039510] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2077119] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2304878] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2318917] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[2368087] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[9888985] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[13264517] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
