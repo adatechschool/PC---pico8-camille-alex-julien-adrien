@@ -108,3 +108,4 @@
 [2368087] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
 [9888985] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
 [13264517] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
+[14604240] run_cart current_filename: C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8 running_filename: fb.p8 running_cart_lid: 
