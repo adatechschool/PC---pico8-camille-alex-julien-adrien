@@ -3,7 +3,10 @@ version 32
 __lua__
 -- 00------
 function _init()
+	create_pnj()
 	create_britney()
+	create_notes()
+	create_coeurs()
 end
 
 function _update()
@@ -43,45 +46,43 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
+function create_pnjs()
+    pnjs={}
+end
 
-pnjs={}
 
-function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
+function create_pnj(x,y,sprite,sprite_ami,ses,speed,flipx,fixe,chrono_fixe)
 	pnj={
 		x=x,
 		y=y,
 		sprite=sprite,
-		sprite_ami=sprite_ami,
+		sprite_ami=sprite_ami
 		sens=sens,
 		speed=speed,
 		flipx=flipx,
 		fixe=fixe,
 		chrono_fixe=chrono_fixe
 	}
-	return pnj
 end
 
-add(pnjs, create_pnj(7,88,garde_spr,garde_spr_ami,1,1,true,false,420))
-
 function draw_pnj()
- if (count(pnjs) > 0) then
-		spr(pnjs[1].sprite,pnjs[1].x,pnjs[1].y,1,1,pnjs[1].flipx)
-	end
+ if (count(pnjs)
+	spr(pnjs[1].sprite,pnjs[1].x,pnjs[1].y,1,1,pnjs[1].flipx)
 end
 
 function pnj_movement()
-	newx=pnjs[1].x+(pnjs[1].sens*pnjs[1].speed)
-	newy=pnjs[1].y
+	newx=pnj.x+(pnj.sens*pnj.speed)
+	newy=pnj.y
 	--
 	testx=flr(newx/8)+1
 	testy=flr(newy/8)
 	--
-	if not pnjs[1].fixe then
+	if not pnj.fixe then
 		if not check_flag(0,testx,testy) and newx>0 and newx<120 then
-				pnjs[1].x=mid(0,newx,120)
+				pnj.x=mid(0,newx,120)
 		else
-	 		pnjs[1].sens=pnjs[1].sens*-1
-	 		pnjs[1].flipx=not pnjs[1].flipx
+	 		pnj.sens=pnj.sens*-1
+	 		pnj.flipx=not pnj.flipx
 		end
 	end
 	
@@ -103,8 +104,13 @@ function check_flag(flag,x,y)
 end
 -->8
 -- 04--------
-notes={}
-coeurs={}
+function create_notes()
+    notes={}
+end
+
+function create_coeurs()
+    coeurs={}
+end
 
 function create_note(x,y,sprite,sens,speed,flipx)  
   note=

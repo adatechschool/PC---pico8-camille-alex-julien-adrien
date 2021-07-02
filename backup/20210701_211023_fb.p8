@@ -3,7 +3,10 @@ version 32
 __lua__
 -- 00------
 function _init()
+	create_pnj()
 	create_britney()
+	create_notes()
+	create_coeurs()
 end
 
 function _update()
@@ -11,8 +14,6 @@ function _update()
 	britney_movement()
 	tir_note()
 	note_movement()
-	--
-	collision_note_pnj()
 end
 
 function _draw()
@@ -30,12 +31,6 @@ function draw_map()
 	map(0,0,0,0,128,64)
 end
 
-britney_spr=17
-note_spr=4
-garde_spr=5
-coeur_spr=10
-garde_fan_spr=11
-
 
 
 
@@ -43,56 +38,36 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
-
-pnjs={}
-
-function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
+function create_pnj()
 	pnj={
-		x=x,
-		y=y,
-		sprite=sprite,
-		sprite_ami=sprite_ami,
-		sens=sens,
-		speed=speed,
-		flipx=flipx,
-		fixe=fixe,
-		chrono_fixe=chrono_fixe
+		x=7,
+		y=88,
+		sprite=5,
+		sens=1,
+		speed=1,
+		flipx=true,
+		immobile=false
 	}
-	return pnj
 end
 
-add(pnjs, create_pnj(7,88,garde_spr,garde_spr_ami,1,1,true,false,420))
-
 function draw_pnj()
- if (count(pnjs) > 0) then
-		spr(pnjs[1].sprite,pnjs[1].x,pnjs[1].y,1,1,pnjs[1].flipx)
-	end
+	spr(pnj.sprite,pnj.x,pnj.y,1,1,pnj.flipx)
 end
 
 function pnj_movement()
-	newx=pnjs[1].x+(pnjs[1].sens*pnjs[1].speed)
-	newy=pnjs[1].y
+	newx=pnj.x+(pnj.sens*pnj.speed)
+	newy=pnj.y
 	--
 	testx=flr(newx/8)+1
 	testy=flr(newy/8)
 	--
-	if not pnjs[1].fixe then
-		if not check_flag(0,testx,testy) and newx>0 and newx<120 then
-				pnjs[1].x=mid(0,newx,120)
-		else
-	 		pnjs[1].sens=pnjs[1].sens*-1
-	 		pnjs[1].flipx=not pnjs[1].flipx
-		end
+	if not check_flag(0,testx,testy) and newx>0 and newx<120 then
+			pnj.x=mid(0,newx,120)
+	else
+ 		pnj.sens=pnj.sens*-1
+ 		pnj.flipx=not pnj.flipx
 	end
-	
---	if pnj.fixe and pnj.chrono_fixe>0 then
---			pnj.chrono_fixe -=1
---	else 
---			pnj.fixe=false
---			pnj.chrono_fixe=100
---			pnj.sprite=5
 	--
---	end
 end
 
 -->8
@@ -103,8 +78,13 @@ function check_flag(flag,x,y)
 end
 -->8
 -- 04--------
-notes={}
-coeurs={}
+function create_notes()
+    notes={}
+end
+
+function create_coeurs()
+    coeurs={}
+end
 
 function create_note(x,y,sprite,sens,speed,flipx)  
   note=
@@ -134,7 +114,7 @@ end
 
 function tir_note()
     if (btnp(⬇️) and count(notes) == 0) then 
-        add(notes, create_note(britney.x,britney.y,note_spr,britney.sens,2,false))
+        add(notes, create_note(britney.x,britney.y,4,britney.sens,2,false))
     end
 end
 
@@ -149,20 +129,10 @@ function note_movement()
 	    if not check_flag(0,testx,testy) and newx>0 and newx<120 then
 	     notes[1].x=mid(0,newx,120)
 	    else
+	    	add(coeurs,create_coeur(notes[1].x,notes[1].y,10,20))
 	    	deli(notes,1)
 	    end
 	  end
-end
-
-function collision_note_pnj()
-	if (count(notes) > 0) then
-		if flr(pnj.x/8) == flr(notes[1].x/8) and pnj.sprite==5 then
-			pnj.sprite=garde_fan_spr
-			pnj.fixe=true
-			add(coeurs,create_coeur(notes[1].x,notes[1].y,coeur_spr,20))
-			deli(notes,1)
-		end
-	end
 end
 
 function draw_coeur()
@@ -176,13 +146,18 @@ function draw_coeur()
     end
 end
 
+-----
+	if flr(pnj.x/8) == flr(note.x/8) then
+	--if check_flag(4,pnj.x,pnj.y) then
+		pnj.sprite=11
+	end
 -->8
 -- 05 ------
 function create_britney()
 	britney={
-		x=90,
+		x=23,
 		y=88,
-		sprite=britney_spr,
+		sprite=17,
 		sens=-1,
 		speed=1,
 		flipx=false,
@@ -210,14 +185,14 @@ function britney_movement()
 end
 
 __gfx__
-0000000000aaaa00666666660080080000777777777fff7700000000000000000000000077aaaaa787787788777fff7700000000000000000000000000000000
-000000000aaaaaa066006606008008000070000777700f770000000000000000090080807550ffa77887887877700f7700000000000000000000000000000000
-00700700aaaaaaaa66600066008778080070000777ffff77000000000000000000aa08007575f0aa7788877877ffff7700000000000000000000000000000000
-00077000aaaaaaaa6066000600070708007000077000000700000000999888880008aa807555ffaa877877887888888700000000000000000000000000000000
-00077000aaaaaaaa6600660607777788777007770007000000000000888999990889800077411177887778888887888800000000000000000000000000000000
-00700700aaaaaaaa66600606077778807770077707070070000000000000000000909a0077444447888787878787887800000000000000000000000000000000
-000000000aaaaaa0606666660080880000000000770000770000000000000000090008a077755547888887777788887700000000000000000000000000000000
-0000000000aaaa006666666600800800000000007707707700000000000000000000000077757577888888787787787700000000000000000000000000000000
+0000000000aaaa00666666660080080000777777777fff7700000000000000000000000077aaaaa7e77e77ee777fff7700000000000000000000000000000000
+000000000aaaaaa066006606008008000070000777700f770000000000000000090080807550ffa77ee7ee7e77700f7700000000000000000000000000000000
+00700700aaaaaaaa66600066008778080070000777ffff77000000000000000000aa08007575f0aa77eee77e77ffff7700000000000000000000000000000000
+00077000aaaaaaaa6066000600070708007000077000000700000000999888880008aa807555ffaae77e77ee7eeeeee700000000000000000000000000000000
+00077000aaaaaaaa6600660607777788777007770007000000000000888999990889800077411177ee777eeeeee7eeee00000000000000000000000000000000
+00700700aaaaaaaa66600606077778807770077707070070000000000000000000909a0077444447eee7e7e7e7e7ee7e00000000000000000000000000000000
+000000000aaaaaa0606666660080880000000000770000770000000000000000090008a077755547eeeee77777eeee7700000000000000000000000000000000
+0000000000aaaa006666666600800800000000007707707700000000000000000000000077757577eeeeee7e77e77e7700000000000000000000000000000000
 0000000077aaaaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000077a0aaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000076affaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

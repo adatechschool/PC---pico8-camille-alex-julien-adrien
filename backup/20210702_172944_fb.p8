@@ -43,7 +43,6 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
-
 pnjs={}
 
 function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)

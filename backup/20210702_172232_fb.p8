@@ -3,7 +3,10 @@ version 32
 __lua__
 -- 00------
 function _init()
+	--create_pnjs()
 	create_britney()
+	--create_notes()
+	create_coeurs()
 end
 
 function _update()
@@ -43,8 +46,9 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
-
-pnjs={}
+--function create_pnjs()
+  pnjs={}
+--end
 
 function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
 	pnj={
@@ -103,8 +107,13 @@ function check_flag(flag,x,y)
 end
 -->8
 -- 04--------
-notes={}
-coeurs={}
+--function create_notes()
+    notes={}
+--end
+
+function create_coeurs()
+    coeurs={}
+end
 
 function create_note(x,y,sprite,sens,speed,flipx)  
   note=

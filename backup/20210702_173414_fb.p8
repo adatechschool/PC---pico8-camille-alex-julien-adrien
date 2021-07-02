@@ -4,6 +4,7 @@ __lua__
 -- 00------
 function _init()
 	create_britney()
+	create_pnjs()
 end
 
 function _update()
@@ -43,8 +44,11 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
+--pnjs={}
 
-pnjs={}
+function create_pnjs()
+	pnjs={}
+end
 
 function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
 	pnj={

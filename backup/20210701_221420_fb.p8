@@ -3,7 +3,10 @@ version 32
 __lua__
 -- 00------
 function _init()
+	create_pnj()
 	create_britney()
+	create_notes()
+	create_coeurs()
 end
 
 function _update()
@@ -30,12 +33,6 @@ function draw_map()
 	map(0,0,0,0,128,64)
 end
 
-britney_spr=17
-note_spr=4
-garde_spr=5
-coeur_spr=10
-garde_fan_spr=11
-
 
 
 
@@ -43,45 +40,36 @@ garde_fan_spr=11
 
 -->8
 -- 02 ------
-
-pnjs={}
-
-function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
+function create_pnj()
 	pnj={
-		x=x,
-		y=y,
-		sprite=sprite,
-		sprite_ami=sprite_ami,
-		sens=sens,
-		speed=speed,
-		flipx=flipx,
-		fixe=fixe,
-		chrono_fixe=chrono_fixe
+		x=7,
+		y=88,
+		sprite=5,
+		sens=1,
+		speed=1,
+		flipx=true,
+		fixe=false,
+		chrono_fixe=420
 	}
-	return pnj
 end
 
-add(pnjs, create_pnj(7,88,garde_spr,garde_spr_ami,1,1,true,false,420))
-
 function draw_pnj()
- if (count(pnjs) > 0) then
-		spr(pnjs[1].sprite,pnjs[1].x,pnjs[1].y,1,1,pnjs[1].flipx)
-	end
+	spr(pnj.sprite,pnj.x,pnj.y,1,1,pnj.flipx)
 end
 
 function pnj_movement()
-	newx=pnjs[1].x+(pnjs[1].sens*pnjs[1].speed)
-	newy=pnjs[1].y
+	newx=pnj.x+(pnj.sens*pnj.speed)
+	newy=pnj.y
 	--
 	testx=flr(newx/8)+1
 	testy=flr(newy/8)
 	--
-	if not pnjs[1].fixe then
+	if not pnj.fixe then
 		if not check_flag(0,testx,testy) and newx>0 and newx<120 then
-				pnjs[1].x=mid(0,newx,120)
+				pnj.x=mid(0,newx,120)
 		else
-	 		pnjs[1].sens=pnjs[1].sens*-1
-	 		pnjs[1].flipx=not pnjs[1].flipx
+	 		pnj.sens=pnj.sens*-1
+	 		pnj.flipx=not pnj.flipx
 		end
 	end
 	
@@ -103,8 +91,13 @@ function check_flag(flag,x,y)
 end
 -->8
 -- 04--------
-notes={}
-coeurs={}
+function create_notes()
+    notes={}
+end
+
+function create_coeurs()
+    coeurs={}
+end
 
 function create_note(x,y,sprite,sens,speed,flipx)  
   note=
@@ -134,7 +127,7 @@ end
 
 function tir_note()
     if (btnp(⬇️) and count(notes) == 0) then 
-        add(notes, create_note(britney.x,britney.y,note_spr,britney.sens,2,false))
+        add(notes, create_note(britney.x,britney.y,4,britney.sens,2,false))
     end
 end
 
@@ -149,6 +142,7 @@ function note_movement()
 	    if not check_flag(0,testx,testy) and newx>0 and newx<120 then
 	     notes[1].x=mid(0,newx,120)
 	    else
+	    	--add(coeurs,create_coeur(notes[1].x,notes[1].y,10,20))
 	    	deli(notes,1)
 	    end
 	  end
@@ -157,9 +151,9 @@ end
 function collision_note_pnj()
 	if (count(notes) > 0) then
 		if flr(pnj.x/8) == flr(notes[1].x/8) and pnj.sprite==5 then
-			pnj.sprite=garde_fan_spr
+			pnj.sprite=11
 			pnj.fixe=true
-			add(coeurs,create_coeur(notes[1].x,notes[1].y,coeur_spr,20))
+			add(coeurs,create_coeur(notes[1].x,notes[1].y,10,20))
 			deli(notes,1)
 		end
 	end
@@ -182,7 +176,7 @@ function create_britney()
 	britney={
 		x=90,
 		y=88,
-		sprite=britney_spr,
+		sprite=17,
 		sens=-1,
 		speed=1,
 		flipx=false,
