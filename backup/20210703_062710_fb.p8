@@ -28,12 +28,10 @@ end
 -->8
 -- 01 ------
 
--- pour dessiner la map
 function draw_map()
 	map(0,0,0,0,128,64)
 end
 
--- initialisation des constantes
 britney_spr=17
 note_spr=4
 garde_spr=5
@@ -103,8 +101,6 @@ end
 
 -->8
 -- 03 ------
--- renvoie le sprite a la position x,y, 
--- si il possede le flag passe en parametre
 function check_flag(flag,x,y)
 	local sprite=mget(x,y)
 	return fget(sprite,flag)

@@ -28,12 +28,10 @@ end
 -->8
 -- 01 ------
 
--- pour dessiner la map
 function draw_map()
 	map(0,0,0,0,128,64)
 end
 
--- initialisation des constantes
 britney_spr=17
 note_spr=4
 garde_spr=5
@@ -68,7 +66,7 @@ function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe,fan)
 	return pnj
 end
 
-add(pnjs, create_pnj(7,88,pprz_spr,pprz_fan_spr,1,1,true,false,420,false))
+add(pnjs, create_pnj(7,88,pprz_spr,pprz_spr_ami,1,1,true,false,420,false))
 
 function draw_pnj()
  if (count(pnjs) > 0) then
@@ -103,8 +101,6 @@ end
 
 -->8
 -- 03 ------
--- renvoie le sprite a la position x,y, 
--- si il possede le flag passe en parametre
 function check_flag(flag,x,y)
 	local sprite=mget(x,y)
 	return fget(sprite,flag)
@@ -164,7 +160,7 @@ end
 
 function collision_note_pnj()
 	if (count(notes) > 0) then
-		if flr(pnj.x/8) == flr(notes[1].x/8) and not pnj.fan then
+		if flr(pnj.x/8) == flr(notes[1].x/8) and pnj.fan then
 			pnj.sprite=pnj.sprite_ami
 			pnj.fixe=true
 			pnj.fan=true

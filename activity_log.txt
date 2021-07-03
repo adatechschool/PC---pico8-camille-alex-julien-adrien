@@ -455,4 +455,46 @@
 2021-07-02 17:43:28 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
  i........r_r_cgg..gcccccc..c.........c.
 2021-07-02 17:51:43 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ ii..i....iiiiii.........ii........i.........
+2021-07-02 20:53:15 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ i..iii
+2021-07-02 20:53:33 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ iiirr_cccccccccccccccccccccccc.......cccccc.cccc.ccccccccgggccccccccccccccccc.cc
+ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.ccc..crrrr
+ cccccccccccccccccccccccccrccggggcccccrcgccccccc..ccccccccccccccr___r__cccccccccc
+ ccccccccr_rrrcccccccccccccccc.cccccccccc.ccccccccccccccccccccc.ccccccccccccccccc
+ ccccccccccccccc..i..cc..ccccccciiiiiccccgc.icccc........ccccccccc..ccc.cccccc...
+ ccciicccciiicc.cci..c.........ccccccccci...cccc..ccccccccci.ccccccci.i.iicccciic
+ ...cccccr_rccccc...ccccccccrccccccc...cccccccccccccigcccccccccc.ccccccc.cccccccc
+ cgggcccrcccciccc.ccccccccccccicrcccc.......ccccccccccccccccccccrccccccccc....cc.
+ c.....ccc..rcccccccccccccccccccccccc.i.cc.c..ccrccccccccccccc.cccccrcccccccccccc
+ ccriccccccc..cccccccccccccccccccccccccc.........c.cc.cccccccccccccccccccccccccc.
+ .ccccccccccccccccccccccciic....cccic.ccccccccccc.cccii.ccccicc.cciccc.ccccccc..c
+ cccc.c..ccrrr_ccccr_____rrr___r____rrrr_______rcccccccc...ccccccc.cr________ric.
+ ........cr__rr______rrr__cccccccccc.cccccccc.c..cc.crr___rcmmmmmmggmmmmmrimmmmrr
+ mmgr___ggggg.gccc.ccccc.....ccc...cccccc.cccccccccciccccccrc.rrc.cccccccrcccrccc
+ crccrccccccr______cccc.ccrcc.cccccc.ccccrcccccrccr__c..c...cccc...cc.cccc.ccrcc.
+ ccr__c.cccccccccccccccccccccrccr_cccccc..cccccc...cccccccccccccccccccccccccccccc
+ cccccccccccccccccccccccccccccccccccciccccc.........ccr___ccgmmr__imcccccricccrrc
+ icccccc.ccccccccccrcccccccccccccri.c..cccr____rrrcc
+2021-07-03 05:27:56 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ ii
+2021-07-03 05:28:02 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ iii....c..i.cccccc.ccc....cccc....ccgcccgccc.ccii....c.ccc.ccccccccccccc.ccccccc
+ ccccccccc.....cccccccc.........cccc.c....ccccccccccciccccccccccrcccc.crc.ccccccc
+ ccccc..ccc.cc.........cccccccc....c.ccccccccccccccccccccccccicccciccccccccccrccc
+ cccccc.cccccccccccrccrr__cc.cccccccccccccccccccr_________cccccccccccicrcccc.....
+ ....ccccicccccccc...ccccccccc.cccccicccccicc..crccc...cccccccccccc..cccccccccic.
+ .....ci...c...cccc...ccccc..cci.cicccc..cccccccccc..cccc.......c.ccccccccccc....
+ cccccccccccccccccccccccccccccccccc.cc....c...ccc...ccic......c.........cc.cicccc
+ ccccc.ccccccccccccccccccccci..ccccccci..c.ccccccccrccccccccccccccccccc.cccc.cccc
+ ccccccccccccccccccccccc.cccccccccccci.cc..ccccccccc.cccccc.i.ccccc.ccr__c.cccc..
+ ccc.cccccccccccccccccccccccccccccccr__ccccccr_riii.........c.cccccccccccric.ccrr
+ _____ccgggggggggggggggggg..cccccgccccccccccccccccccccccccc.cccccccccr_rcccc..ccc
+ cccccccccccccc.rrrrcccccccc..c.cccccccccccccccrrcc..cccccccccccccccccc.ccccccccc
+ ccccccccccccccccccccccccccccccccccric..ccc.ccccccccccrrrccccccgccccccccccccccccc
+ cccccccccccc.rrcccccccccccccccccc.cc.cccccrr_cccccccccccccccccccccccrr_r________
+ _iccc.c.ccccccccccccrr_________c...cccc........ccc..ccccccccccccccccccccccc....c
+ cccccccccccccccccccccccccccc.cc.cccccccccccccc......ccccccc.........c
+2021-07-03 06:38:18 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
  

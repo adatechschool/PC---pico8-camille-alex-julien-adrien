@@ -8,7 +8,7 @@ end
 
 function _update()
 	pnj_movement()
-	pprzs_movement()
+	pprz_movement()
 	britney_movement()
 	tir_note()
 	note_movement()
@@ -21,26 +21,23 @@ function _draw()
 	draw_map()
 	draw_britney()
 	draw_pnj()
-	draw_pprzs()
+	draw_pprz()
 	draw_note()
 	draw_coeur()
 end
 -->8
 -- 01 ------
 
--- pour dessiner la map
 function draw_map()
 	map(0,0,0,0,128,64)
 end
 
--- initialisation des constantes
 britney_spr=17
 note_spr=4
 garde_spr=5
 coeur_spr=10
 garde_fan_spr=11
 pprz_spr=9
-pprz_fan_spr=12
 
 
 
@@ -52,7 +49,7 @@ pprz_fan_spr=12
 
 pnjs={}
 
-function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe,fan)
+function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe)
 	pnj={
 		x=x,
 		y=y,
@@ -62,13 +59,12 @@ function create_pnj(x,y,sprite,sprite_ami,sens,speed,flipx,fixe,chrono_fixe,fan)
 		speed=speed,
 		flipx=flipx,
 		fixe=fixe,
-		chrono_fixe=chrono_fixe,
-		fan=fan
+		chrono_fixe=chrono_fixe
 	}
 	return pnj
 end
 
-add(pnjs, create_pnj(7,88,pprz_spr,pprz_fan_spr,1,1,true,false,420,false))
+add(pnjs, create_pnj(7,88,garde_spr,garde_spr_ami,1,1,true,false,420))
 
 function draw_pnj()
  if (count(pnjs) > 0) then
@@ -103,8 +99,6 @@ end
 
 -->8
 -- 03 ------
--- renvoie le sprite a la position x,y, 
--- si il possede le flag passe en parametre
 function check_flag(flag,x,y)
 	local sprite=mget(x,y)
 	return fget(sprite,flag)
@@ -141,7 +135,7 @@ function draw_note()
 end
 
 function tir_note()
-    if (btnp(5) and count(notes) == 0) then 
+    if (btnp(⬇️) and count(notes) == 0) then 
         add(notes, create_note(britney.x,britney.y,note_spr,britney.sens,2,false))
     end
 end
@@ -164,10 +158,9 @@ end
 
 function collision_note_pnj()
 	if (count(notes) > 0) then
-		if flr(pnj.x/8) == flr(notes[1].x/8) and not pnj.fan then
-			pnj.sprite=pnj.sprite_ami
+		if flr(pnj.x/8) == flr(notes[1].x/8) and pnj.sprite==5 then
+			pnj.sprite=garde_fan_spr
 			pnj.fixe=true
-			pnj.fan=true
 			add(coeurs,create_coeur(notes[1].x,notes[1].y,coeur_spr,20))
 			deli(notes,1)
 		end
@@ -268,32 +261,52 @@ end
 	return pprz
 end
 
-add(pprzs, create_pprz(0,0,garde_spr,pprz_fan_spr,-1,1,false,false,420))
-add(pprzs, create_pprz(0,16,garde_spr,garde_fan_spr,-1,1,false,false,420))
+add(pprzs, create_pprz(0,0,pprz_spr,garde_spr_ami,-1,1,false,false,420))
 
-
-function draw_pprzs()
-	foreach(pprzs, function(pprz)
-  pprz:draw_pprz()
-	end)
+function draw_pprz()
+	--pprzs[1].draw_pprz()
+	foreach(pprz,draw_pprz())
 end
 
-function pprzs_movement()
-	foreach(pprzs, function(pprz)
-  pprz:pprz_movement()
-	end)
+function pprz_movement()
+	pprzs[1].pprz_movement()
 end
 
+--function pprz_movement()
+--	newx=pprzs[1].x+(pprzs[1].sens*pprzs[1].speed)
+--	newy=pprzs[1].y
+	--
+--	testx=flr(newx/8)+1
+--	testy=flr(newy/8)
+	--
+--	if not pprzs[1].fixe then
+--		if not check_flag(0,testx,testy) and newx>0 and newx<120 then
+--				pprzs[1].x=mid(0,newx,120)
+--		else
+--	 		pprzs[1].sens=pprzs[1].sens*-1
+--	 		pprzs[1].flipx=not pprzs[1].flipx
+--		end
+--	end
+	
+--	if pnj.fixe and pnj.chrono_fixe>0 then
+--			pnj.chrono_fixe -=1
+--	else 
+--			pnj.fixe=false
+--			pnj.chrono_fixe=100
+--			pnj.sprite=5
+	--
+--	end
+--end
 
 __gfx__
-0000000000aaaa00666666660080080000777777777fff7700000000000000000000000077aaaaa787787788777fff7777aaaaa7000000000000000000000000
-000000000aaaaaa066006606008008000070000777700f770000000000000000090080807550ffa77887887877700f777550ffa7000000000000000000000000
-00700700aaaaaaaa66600066008778080070000777ffff77000000000000000000aa08007575f0aa7788877877ffff777575f0aa000000000000000000000000
-00077000aaaaaaaa6066000600070708007000077000000700000000999888880008aa807555ffaa87787788788888877555ffaa000000000000000000000000
-00077000aaaaaaaa66006606077777887770077700070000000000008889999908898000774111778877788888878888778eee77000000000000000000000000
-00700700aaaaaaaa66600606077778807770077707070070000000000000000000909a0077444447888787878787887877888887000000000000000000000000
-000000000aaaaaa0606666660080880000000000770000770000000000000000090008a077755547888887777788887777788887000000000000000000000000
-0000000000aaaa006666666600800800000000007707707700000000000000000000000077757577888888787787787777787877000000000000000000000000
+0000000000aaaa00666666660080080000777777777fff7700000000000000000000000077aaaaa787787788777fff7700000000000000000000000000000000
+000000000aaaaaa066006606008008000070000777700f770000000000000000090080807550ffa77887887877700f7700000000000000000000000000000000
+00700700aaaaaaaa66600066008778080070000777ffff77000000000000000000aa08007575f0aa7788877877ffff7700000000000000000000000000000000
+00077000aaaaaaaa6066000600070708007000077000000700000000999888880008aa807555ffaa877877887888888700000000000000000000000000000000
+00077000aaaaaaaa6600660607777788777007770007000000000000888999990889800077411177887778888887888800000000000000000000000000000000
+00700700aaaaaaaa66600606077778807770077707070070000000000000000000909a0077444447888787878787887800000000000000000000000000000000
+000000000aaaaaa0606666660080880000000000770000770000000000000000090008a077755547888887777788887700000000000000000000000000000000
+0000000000aaaa006666666600800800000000007707707700000000000000000000000077757577888888787787787700000000000000000000000000000000
 0000000077aaaaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000077a0aaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000076affaa70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
