@@ -34,7 +34,7 @@ end
 -- initialisation des constantes
 britney_spr=17
 britney_up=2.5
-britney_speed=1
+britney_speed=0.8
 note_spr=4
 garde_spr=5
 coeur_spr=10
@@ -112,13 +112,12 @@ function create_britney()
 		speed=britney_speed,
 		flipx=false,
 		immobile=false,
-		-- work in progress
+		--
 		jump_start=false,
 		jump_up=false, -- pour declencher la phase de montee lors de saut
 		jump_down=false, -- pour declencher la phase de descente lors de saut
 		jump_height=18, -- hauteur du saut
-		x_from=0,
-		--
+		delta_x=0,
 		y_from=0 -- pour stocker le niveau d'ou on part au moment du saut
 	}
 end
@@ -141,18 +140,17 @@ function britney_movement()
 	end
 	--
 	-- gestion des sauts
-	--
-	--	wip saut "complexe"
-	--if britney.jump_start and not britney.jump_up and not britney.jump_down then 
-	--	britney.y_from=britney.y
-	--	britney.jump_start=false
-	--	britney.jump_up=true
-	--	britney.jump_down=false
-	--end
-	--
+	if britney.jump_start and not britney.jump_up and not britney.jump_down then 
+		britney.x_from=britney.x
+		britney.y_from=britney.y
+		britney.jump_start=false
+		britney.jump_up=true
+		britney.jump_down=false
+	end
 	-- montee
 	if britney.jump_up and not britney.jump_down then
-		britney.speed=1.2
+		--britney.speed=1.2
+		britney.delta_x+=0.2
 		if britney.y_from-britney.y<britney.jump_height then
 			britney.y-=gravity
 		else 
@@ -170,6 +168,7 @@ function britney_movement()
 			britney.y=britney.y_from
 			britney.jump_down=false
 			britney.speed=1
+			britney.delta_x=0
 	 end
 	end
 end
@@ -232,9 +231,9 @@ function create_pnj(x,y,sprite,sprite_fan,sens,speed,flipx,fixe,chrono_fixe)
 end
 
 function create_pnjs()
-	add(pnjs, create_pnj(0,0,garde_spr,garde_fan_spr,-1,1,false,false,420,false))
-	add(pnjs, create_pnj(0,16,pprz_spr,pprz_fan_spr,-1,1,false,false,420,false))
-	add(pnjs, create_pnj(50,88,pprz_spr,pprz_fan_spr,1,1.2,true,false,420,false))
+	add(pnjs, create_pnj(0,0,garde_spr,garde_fan_spr,-1,0.8,false,false,420,false))
+	add(pnjs, create_pnj(0,16,pprz_spr,pprz_fan_spr,-1,0.8,false,false,420,false))
+	add(pnjs, create_pnj(50,88,pprz_spr,pprz_fan_spr,1,0.8,true,false,420,false))
 end
 
 function draw_pnjs()

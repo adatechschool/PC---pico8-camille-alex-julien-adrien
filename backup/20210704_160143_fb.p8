@@ -7,7 +7,7 @@ function _init()
 	create_pnjs()
 end
 
-function _update60()
+function _update()
 	clavier_listener()
 	--
 	pnjs_movement()
@@ -34,14 +34,13 @@ end
 -- initialisation des constantes
 britney_spr=17
 britney_up=2.5
-britney_speed=1
 note_spr=4
 garde_spr=5
 coeur_spr=10
 garde_fan_spr=11
 pprz_spr=9
 pprz_fan_spr=12
-gravity=1
+gravity=1.7
 
 -- initialisation des tableaux
 pnjs={}
@@ -65,7 +64,7 @@ function clavier_listener()
  end
  --
 	if (btnp(🅾️)) then 
-		britney.jump_start=true
+		britney.jump=true
 	end
 end
 
@@ -109,16 +108,12 @@ function create_britney()
 		y=88,
 		sprite=britney_spr,
 		sens=-1,
-		speed=britney_speed,
+		speed=1,
 		flipx=false,
 		immobile=false,
-		-- work in progress
-		jump_start=false,
 		jump_up=false, -- pour declencher la phase de montee lors de saut
 		jump_down=false, -- pour declencher la phase de descente lors de saut
-		jump_height=18, -- hauteur du saut
-		x_from=0,
-		--
+		jump_height=14, -- hauteur du saut
 		y_from=0 -- pour stocker le niveau d'ou on part au moment du saut
 	}
 end
@@ -141,19 +136,13 @@ function britney_movement()
 	end
 	--
 	-- gestion des sauts
-	--
-	--	wip saut "complexe"
-	--if britney.jump_start and not britney.jump_up and not britney.jump_down then 
-	--	britney.y_from=britney.y
-	--	britney.jump_start=false
-	--	britney.jump_up=true
-	--	britney.jump_down=false
-	--end
-	--
+	if britney.jump then 
+		britney.y_from=britney.y
+		britney.jump_up=true
+	end
 	-- montee
-	if britney.jump_up and not britney.jump_down then
-		britney.speed=1.2
-		if britney.y_from-britney.y<britney.jump_height then
+	if britney.jump_up and not britney.jump_down
+		if britney.y-britney.y_from<britney.jump_height then
 			britney.y-=gravity
 		else 
 			britney.y=britney.y_from-britney.jump_height
@@ -161,16 +150,15 @@ function britney_movement()
 			britney.jump_down=true
 		end
 	end
-	-- descente
-	if britney.jump_down and not britney.jump_up then
-		britney.speed=1.2
-		if britney.y<britney.y_from then
+	--descente
+	if britney.jump_down and not britney.jump_up
+		if britney.y_from-britney.y<britney.jump_height then
 			britney.y+=gravity
 		else 
 			britney.y=britney.y_from
+			britney.jump_up=false
 			britney.jump_down=false
-			britney.speed=1
-	 end
+		end
 	end
 end
 

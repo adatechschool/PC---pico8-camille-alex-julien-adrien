@@ -112,13 +112,12 @@ function create_britney()
 		speed=britney_speed,
 		flipx=false,
 		immobile=false,
-		-- work in progress
+		--
 		jump_start=false,
 		jump_up=false, -- pour declencher la phase de montee lors de saut
 		jump_down=false, -- pour declencher la phase de descente lors de saut
 		jump_height=18, -- hauteur du saut
-		x_from=0,
-		--
+		delta_x=0,
 		y_from=0 -- pour stocker le niveau d'ou on part au moment du saut
 	}
 end
@@ -141,18 +140,17 @@ function britney_movement()
 	end
 	--
 	-- gestion des sauts
-	--
-	--	wip saut "complexe"
-	--if britney.jump_start and not britney.jump_up and not britney.jump_down then 
-	--	britney.y_from=britney.y
-	--	britney.jump_start=false
-	--	britney.jump_up=true
-	--	britney.jump_down=false
-	--end
-	--
+	if britney.jump_start and not britney.jump_up and not britney.jump_down then 
+		britney.x_from=britney.x
+		britney.y_from=britney.y
+		britney.jump_start=false
+		britney.jump_up=true
+		britney.jump_down=false
+	end
 	-- montee
 	if britney.jump_up and not britney.jump_down then
-		britney.speed=1.2
+		--britney.speed=1.2
+		delta_x+=0.2
 		if britney.y_from-britney.y<britney.jump_height then
 			britney.y-=gravity
 		else 
@@ -170,6 +168,7 @@ function britney_movement()
 			britney.y=britney.y_from
 			britney.jump_down=false
 			britney.speed=1
+			britney.delta_x=0
 	 end
 	end
 end
