@@ -12,7 +12,7 @@
 [000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 fullscreen
 [000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
 [000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
-[000000]     10 sessions 40 // number of times program has been run
+[000000]     10 sessions 48 // number of times program has been run
 [000000]     11 rmb_key 0 // 0 for none  226 for LALT
 [000000]     12 desktop_path 
 [000000]     13 sound_volume 256 // 0..256
@@ -40,37 +40,47 @@
 [000000]     35 check_for_cart_updates 1
 [000000]   
 [000000]   codo_system_init
-[000050]   Compiled against SDL version: 2.0.2
-[000050]   Linked against SDL version:   2.0.9
-[000050]   Current video driver: windows
-[000050]   codo_reset_timer
-[000050]   codo_gui_init
-[000050]   codo_keys_init
-[000050]   codo_text_init
-[000050]   codo_video_init
-[000050]   codo_mouse_init
-[000050]   codo_joystick_init
-[000051]   Reading controller mappings: C:/Users/julie/AppData/Roaming/pico-8/sdl_controllers.txt
-[000051]   searching for joysticks
-[000051]     found 0 joysticks
-[000051]   ok
-[000051] ok
-[000064] codo_load_pod: C:/Program Files/pico-8/pico8.dat ok 
-[000067] codo_set_screen 128 128 8 100
-[000068]  window size: 640 540
-[000175]   setting filter to nearest (screen_mode 0  back page width: 128)
+[000060]   Compiled against SDL version: 2.0.2
+[000060]   Linked against SDL version:   2.0.9
+[000060]   Current video driver: windows
+[000060]   codo_reset_timer
+[000060]   codo_gui_init
+[000060]   codo_keys_init
+[000060]   codo_text_init
+[000060]   codo_video_init
+[000060]   codo_mouse_init
+[000060]   codo_joystick_init
+[000061]   Reading controller mappings: C:/Users/julie/AppData/Roaming/pico-8/sdl_controllers.txt
+[000062]   searching for joysticks
+[000062]     found 0 joysticks
+[000062]   ok
+[000062] ok
+[000074] codo_load_pod: C:/Program Files/pico-8/pico8.dat ok 
+[000078] codo_set_screen 128 128 8 100
+[000078]  window size: 640 540
+[000263]   setting filter to nearest (screen_mode 0  back page width: 128)
   renderer direct3d:
    flags: 0x0000000E ( |  | )
    texture formats (3): ARGB8888, YV12, IYUV
    max texture size: 16384x16384
-[000178]  desktop size: 1366 768
-[000178] ok
-[000181] codo_sound_init mix_buffer_size: 1024
-[000182] codo_sound_init
-[000182] SDL_INIT_AUDIO ok
-[000370] SDL_OpenAudio ok
-[000370]  freq:22050
+[000267]  desktop size: 1366 768
+[000267] ok
+[000270] codo_sound_init mix_buffer_size: 1024
+[000270] codo_sound_init
+[000270] SDL_INIT_AUDIO ok
+[000444] SDL_OpenAudio ok
+[000444]  freq:22050
  channels:1
-[000370] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
-[000370] Current audio driver: wasapi
-[000370] splore_init
+[000444] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000444] Current audio driver: wasapi
+[000444] splore_init
+[010006] codo_exit
+[010006]   cmusic_stop
+[010006]   codo_main_exit
+[010007]   codo_config_save
+[010008]   codo_sound_exit
+[010008]   codo_video_exit
+[010032]   codo_joystick_exit
+[010033]   codo_system_exit
+[010033]   codo_items_created: 1083
+[010033] ok

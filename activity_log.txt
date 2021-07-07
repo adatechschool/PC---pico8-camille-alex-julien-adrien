@@ -727,4 +727,284 @@
  ggggggccccc.ccrcggrrrrrrr_____rrrrrr_gcccccccccccccccccccccccccccccccccc.ccccccc
  ccccccccccccccc.cccccccccc.cccccccccccc.cggggggggggggggggggccccccr_rrrrrrr_rrccc
  rrrrrrrrcc.ggggggggggggggggggggggggggggggggggggg...g.........gggcc..c.c.........
+ ccc..cc..cccccccc.c.cccc........cccc.........cc.....ccc........c.cc.ccc.........
+ cc.ccc..ccccc..cc.........ccc........cc......c...c.ccc....c.........cccc.c......
+ ...crrrrrrrric.........cccc.cc.....c......cccccccc...cccccccccc.cccccc.........c
+ ccccccccccc.c.c..c..c..cc...c.........rrrrrrrrr_rr_________c.c.........cr___rrcg
+ gggggggggggggggggggggggggggggg...ggg...g.ggggggg.ggggggggggggggggggggggggggggggg
+ gg..gggggggg..gg.........ggggg....gggggg..g.ggg...gg.........g.........gcccccccc
+ cccccccc.c.........ccc.c...c.......c.cccccc.......c.........cc.c.........cc.....
+ ....c.........ccccccc.......ci.i.icccccccccccccccccc.........cccccrrcc..c..cccc.
+ ..c.......c.........c..c....c.........cccc.cccc...cccccccccrircccricccccccccccic
+ cr_ccccccrmmmmmmrimmrmcccccrccccccccicccccccr___rcccccccccccccr_____r_rcc.......
+ ..cccc.ccccccrrrcrccccccrccccccccicccccrccc......crccc.......c.....ccic...cccrc.
+ ........c.........ccccccccccicccicccccccccccc..rrccccrc.cccccrcccccccrcc........
+ .c.ccccccccrcccccccccccrcrrccrcccccccr_________c...cccccrcr_______icccccccc..ccc
+ cccccccrcccccccccccccc.ccccccccccccrccccccccc.rrccccccccccc.c.ccccccrrrrrrrccric
+ cccccccrccccccccrrrrrcccccc.........ccc.cccccccccrrrrrrc..ccc.ccccccc.........cc
+ ........cccc.........cccrccccccc.........cgggg.ggggg.gggggggggggggg.gggggggggggg
+ ggggggg.ggggggggggggggggggggggggggggggggggc.ccccccccccrcccrrcmmmmmmmgggggggggggr
+ gmmmmmmmrrrm...cccccccccrcc.......cc.ccrrcccccrrr_rrrrrrrrrrrrcccccccc.........c
+ cccrrrrrr_rr__rrrrrrrrrrrrrrrrr_________r_________rrrrr_________rrrrrrrrrrrrr
+2021-07-06 07:40:10 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ iii.........iiiiii.ii.........i.iii........i
+2021-07-06 07:43:29 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ irrcc..cccci..iii..iiii
+2021-07-06 07:44:43 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ i....ci
+2021-07-06 07:45:04 C:/Users/julie/AppData/Roaming/pico-8/carts/fb2.p8
+ ii...iii...iii.........i.i......iii...i.i....i.i...iicc..ciirrr__r_r__r_________
+ ii.i
+2021-07-06 07:55:53 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ irrrrrrrrrr_rii.......i...iii.........ii......ii
+2021-07-06 07:58:17 C:/Users/julie/AppData/Roaming/pico-8/carts/fb2.p8
+ ir___rr__rr_________rii
+2021-07-06 08:01:57 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ icgg.g..g.gggmrrrccgggggggggggggggg..ggggrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr______
+ ___rrrrrrrrrrr_________rrrrrrrr__rrr___r_rii.iii.i..ii.......i...iii
+2021-07-06 08:10:33 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ igggggg..g..gg...gggg...ggg......gggg.g.....gggg....ggg..ggg.ggg.ggii
+2021-07-06 08:14:00 C:/Users/julie/AppData/Roaming/pico-8/carts/fb2.p8
+ iriigi
+2021-07-06 08:14:18 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ iggggggggggg..gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+ ggggggg..ggggggggggggggggggggggggggggggggggggggggggggg.....gg..gggggg.gggggggggg
+ g..gggggggggggg.......gggccccccccccccccccccrrrrrrr_rrrrrr_rrrrcccccccccccc.....c
+ ccc..c..rcc..c.ccccccc..cccccccccccccc.cccccc.cccccccccc.crrccccrrrrrrrrcccccccc
+ ccccccccccrrrccccccc.rccccccccccccccc.c.cccc.cccccc.ccc.cccccccccccccccccccccccc
+ crrirrccccrrrrrrrrrccccccccccccccccccccccccccccc...ccr_rrr_cmmmmmmmmmmmrm.......
+ ..mrmccccccicccricccccr__irccccccrrccccccrr_______rr___cccc.cccccccccccccccccccc
+ rrrrrrccccrrrcc...c..rrrccccccccccccccccc.cccrirrrrrricc....c..ccc....ccccccc.cc
+ c.ccccc...cccccccccccrcccccccrrccccrrrrrrrrccccccccccccccccc..cccccccccccccccccc
+ cccccccccricccc.........cccccccicricccri.ccrrricc.iirrrricccrcrrrrccccccccricrrr
+ rccccccc.c.ccrrrcrrrcccccccccccrcccc...ccccccc..cc....ccccccccccccccccccccrrr_ic
+ cccccccccccccccccccc..ccccccggggcccc.ccccccccccrrccrrrccccccccccrcci.iicccrrcccc
+ ccrrrccccccccccccccccrrcccccccccccccccccrr_rrrrrcccccccccccccccccccrr_cccccrr___
+ rrccccmmmmmmmmmmmmmmmm.mmmmmmmmmmmmmmmmmmmm.mmmmmmmmmmmmm.m..mm.........m..mm...
+ m.mmmm...mmmmm..mm.mm.........mmmmrrrmmmg.gggggc..ccccccccgggggccrrr_ccccccccccc
+ cccccccccccccccccccrr_ricccccccccccccccccrrrrr__rcccc.cccccccccccccccc...ccc.r_i
+ iiicccrricc.ccccccccc..cc.ccccccc.cccc.cccccccrrrr____ccccrrc..irrrrrrr_cc..cirr
+ cirrrccc.cc.cc.c...c.crrrrrrrcccccccccc.cccc.cccccccccccccccccc.ccccccrr_cccrrrr
+ r_ricccccccccccccccccrrrccrrciccrcccccccccccccccccccccrrrrrr_rrrrrrrrcc...cccccc
+ ccc.ccc.ccc....c...ccc.c.ccccrrrrrrrrrrrrccccccccccrrccccccccccccccccccccccccc.c
+ c....ccccccccccccccccccccccccccccccc..ccc.........cc........cc.......ccc........
+ .ccccccccccccc..cc...cccccccc.........cc...cccccccccccc.cccccccc...ccccccccccccc
+ cccccc.ccc.........cc.cc.cccccc.cccc..cccccccccccccccc.cc...cccc.iciicccccccccc.
+ ..rrrrrrcmmgggggggggg.ggg.g.gggggmmmmmmmmmmmmmmmmmmmmmmccc.ccccricrrr_cc.cccccrr
+ rrcmmrrmmmggcccccccccccc...crrc.ccccccrrcccccccrccccrrcrrrc.ccccccccccccccrrcccc
+ ccccccrrr___rrrr_rriccrrrrrmmmgrrrrrrggcccccccccrrccccciccccc.cciiiiccciiiiicccc
+ crrrrrrrrrrrrrrrrrrrrrccccccccc.crrrrrrrrrricccccccrrrrrcccccccccccccccrrrcccccc
+ cccccccccccccccccccccrrrrccccrri.cccc.cc.cccccccrrrrrrrrrrrr_rrr__rcccccc.cccccc
+ c.ccccccccccrrrrccrrrric.cccccccccc.cccccccccccccccc.ccccccccccccccccrrrccccccrr
+ rrrrrrrrrrrimmmmmmmmggggg...ggc.....rrc.........c.....crrrrrrrrrrricccrrrccccccc
+ ccccrrrrrrrrrrrrrrrccccccccccrrrrrrrrcrrrrrc.ccccccccccc.c.......c..cc.........c
+ .cc.........ccrrrcccc..cccccccrrrrrrrricccccrrrrrccggmmmmmmmrccccccccccccccccc.c
  
+2021-07-06 11:26:43 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ iiiiii
+2021-07-06 11:27:01 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ ccccccccccccccccccccccc.........cc....cc....ccc.c.cc........cccrrrrcccccc.cccccc
+ .cccccccccc..ccccccrrrrcccccccc.cc..c.........ccicccccc.cccrrrrrrrcc...c.cc.crrr
+ ________rrrrrrrrrrr___ir___r__ccccccccccc......rr___ccccrrrccrrrrrccccrrr_rrrrrr
+ rrrrrrrrrrrrr___ccccccccrrrrrrrr_ccrrrcccrrcrrrrrrrrcccccccccccccc..rrrrrrricccc
+ ccrrrriccccccccc..crrrrrrrrrrrrrccccccgmmmggmcgmmmmmmmmmrrrrrrrrrrrrrrrrrr_rrrr_
+ iiii.iiiii.........ii..ccccccccc.ccc......cccccccccccccccic....cccc..ci.c....cc.
+ __rrr__rr_________r_rr_________r_rrrrr_rr_____rrrrirrrmi.......irr__riiriiiiimmm
+ cccccccicc.ccc........cccccccciiiii
+2021-07-06 11:53:20 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2_backup.p8
+ iii
+2021-07-06 11:53:29 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ m.........mi.iiiiiiii
+2021-07-06 11:54:13 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2_backup.p8
+ iiii.ii..iiiiiic.........ccc......ccr__rcccr_rr_rrr__cccii.........iiii.ccccrrcccccc.....r_r
+ ___rc...rric.cr_ircc.cmmmmggcccricccccccccccccc.........cr_ccrrcrriccccrccccccc.
+ ccccccc.ccccrrrrrirrrrrrrrc.ccccccccccccc.ccc.ccccccccc..ccccc.......rrrcccc.crr
+ rrr_rrrrr_rrrrr_rrrrricrrrrr_cggggggggmmmmmcrrrricccccccccccccccccc.ccccccci.c.c
+ crcccrrrrr_cccccccccccccccccrrrcc.cccrrrcccc........rrrrricccc..ccrrrrrrrrrrrr_r
+ cccccccccccccc.ccc....c.......cc..cccccccccccc..ccccciccccccccccciccccci..cccci.
+ cccrrrrrrrrccccrrrrcccccccccccccccccccccc...cccccccccccccccccccccccccccci.ccrrrr
+ rccc.cc.cccrccccccccccccccccccccccc...rrrrrrrrrrrrr_rrr____rrrrrrrrrrrrrrrrrrrcc
+ ccrrrrrrrrrrrrrrrrrrcccrr_r_rccccrrrrcccccccccccccccccccc.cc.cc...cccccccccccrrc
+ ccrrrrrrrrcccirrrrrrricccccccccccccccccccccccccccccccccrrrrrrrrrrccccccccccccccc
+ cccccccccccccccc..ccccccccccccccccccc.cccccc.cc.cc.cccccccccccccccccccccccccc.cc
+ ccccccccccccc.........cccccccciccrrrrrcccccccccccccicccrrrrcccc.cc.ccccccccccccr
+ cccccrrcc...c.........cmmmmmmmmggggmmmmmmmgggggggcc.ccccc.cccccccccccccccccccccc
+ cccccc..cccccccc.rrrrrrrcccccccccccccccricccrrrccciirrrricccc.cccc..c..ccccccrrr
+ ccccccc..ccccc.ccccccrccccccrcccccccrccccrrccccc.cccc.cccccccicccccccciccccccccc
+ ccrrrccccccc.ccciciiii.ccccirccccccrrrccccccccccriccccc.cccrrc.cccccccrrcc.ccccc
+ .cccrrrrrcccccccccccccccccccccrrrccccccccccccccccccc.cccccrrc.crrcccc.cccc..ccri
+ cc...rriccccccccrrrr_rcccccc..rc..c.........cc.cccrrrccccccrcccccccrrcccrrrc..c.
+ c.cccccc.ccccccricccrcccrrcccccccrccccccccc.........ccccccccccccccrrccrrrrrccc.c
+ c.........rrrr_______rrrrccc.r_rc.........rr____cccrrcccccccccccccccrrrrrimmmmrm
+ rrrrmrrrmmccccccccccccrcccrrcccccrrcccrccrrrrccccccc...cccrrccccccrccccc..cccccc
+ cccccccrrccccccrrrccirrrccccccc..cc.cccccccccccccccccccr_rrrrrccrrrrcccccrrrrrrr
+ rrrrrrrrr_rriccc.....ccc.rrrcc.cccccccccccrcccrrrrcccrccrrcccccrrccccccicrrrcccr
+ rrr_ccccccc..c.c.cccccccccccccccccccccccccrrccciirrccccccccrrcccccccc.cccc..cccc
+ crccccrrccccrcccccccc.rcccrrrrrc.ccccc.cc.ccc...ccccccccccccccccccccccc.ccc.cccc
+ cccccccccccccrrrccccc..ccccccccccccccccrcrcccccc.cc.........cccccccccc..c.cccccc
+ ccccccccccccccccccicccccii.........iiiiicicccccccccccccccrrrrrrcccccrrcccrrrrrrr
+ r_rccccccccc.cccccccccccccccccccccc.cccc.ccccccccccccc.ccrrccccccccccc.ccriccrcc
+ c.ccccrcccccccccrccccrrccc.cccccccccccccccccc.cccccccccccccccccccccccccccrrccccc
+ ccccccccccccccccc.cccccccccccrrccccccccrrrrcccc.ccccccccccccccccccrrcc.ccccccc.c
+ cccccccccrccccc.cccccccccccc..cccccccccccccccccccccccccccccccccrrrccccccccccrrcc
+ cccrrrrrcccc.ccccccrrcccc.rccc.........rrrrrrrrr_ccccccccccrrc.crrrcc...ccccccrr
+ rrc.irrrrr__r_rrrrrrrr_________riccc.........c..ccr___rrr_rrrrrrrrrrrrrrrrrriccc
+ ccccccrrrrrrrrr___rr________rccccc.........c......cc........cccrr_r___rrrrrrrrrr
+ 
+2021-07-06 14:32:43 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ ii
+2021-07-06 14:32:49 C:/Users/julie/AppData/Roaming/pico-8/carts/fb2.p8
+ iiiccii
+2021-07-06 14:33:11 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ rrrr__r__r____rrr___rrrrrrrcccccccc....ccrrrrrrrrr_rrrrr_rrrrccccccccc.ccccccccc
+ icccccccc.........c.........c.........ccc..c..ccc...ccccccccrrcccccccccccccccccccccrrrrrrrrr_rrricccccc.......ccccccccccrrrrrrr_____ri
+ cc.cccccccccccccccccc.........cc...cggggggggggggggggggrrrrrrrrrrrrrr_rcccccc.ccc
+ cc.....ccc..ccccrrcccccccccc.ccccccccccccc..cccccccrrrrccccccccccccccccccrrriccc
+ ccccccrrcccccicrcccrccccrrrrrriccccccccccccccccccccccccccccccicccccci.c.cccc.ccc
+ ccrccccccr_rrrrrrrrcccccccciccccccrrrrrrrrrrrrr_rrrrrrccc..rrrrr_r_icccccccccc.c
+ 
+2021-07-06 14:59:14 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ iiiiiiiiii
+2021-07-06 14:59:44 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ cccrrrcccccccccccc.cricccccrrrrrrrrrr__ri.rcccccc.ccccc...cc....rrcccccccc.ccccc
+ ccgggggggggggcc.ccccc.c.ccc....cc.........ccc.....cc..ccccccccc......cc.........
+ ccccccrrrrrrrr___cccccccccccccrrrrrrccrrrrrrrrrrrrrrrrrrrrrrrrcmmmmggggmmmmmm.mm
+ mmmmmmmmmmmmmrrrrrrmmmmmmmmmmmmmmmrrrgcrrrrrrrrrrrrrrrrrr_irrrrrr_rrrigcc...ccc.
+ iirr_________r_________r_________r______r_________r_________rr_________r___r____
+ cc....ccc...rccrr__r_________r___rrrrrcccccc.ccc.ccccrrcccccccc.cccccccc.cc.crrr
+ rcmmmmmgmmmmmrrrmccccc.rrrrrrrcccccrrccccrrccrrrrrrrrrrcccccgrrccccirrc..rrrc.cc
+ .ccc.crrrccccccccccccccccc.cc.ccccccccrrrrrcccccccccccccicci.cccccc.ccrrccccc.ic
+ ccccccccccccccrrrccccccccc.ccccccc.ccccccricccciccrrccccccccc.ccc....cccrccccccc
+ ccc.ccccc.ccc.ccccrccrrrrccggcccggmmmgggcc..crrrc.c.ccc.ccccccrc..ccccccccccccrc
+ ccccccccccci.cccccccccccccccccrriccccrccccrrccc...cccrcccrccccrcccrcccccrccccrrc
+ cccccccccccrrrrrcccccc.ccccccccrrr_c_____rr_________rrr_________
+2021-07-06 16:45:31 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ iiii
+2021-07-06 16:45:42 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ irrrr__r__rr_rcc.cccccccc...c.c..cccccrccccccccrrccc...cccccccccrrcricccc..ccccc
+ cccccccccccccccccc.rccrccc...crcccccrrcccccccrcccrccccc.ccccccccccccccccc.cccccc
+ ccccccccccccc.ccccccc.rcccc.rcccccccccccccc...irrri.rrrr________rrrrrrrrr_cccrrr
+ c...ccccrriccccccrcrcccrrrrcggrrgrrgggrrgg.ggggi.........igrrgggrrg.grrrrrrrrric
+ cccc...ccgggggggrrrigrgrrgcccccrrc.ccccc..rrccccccccrr_rr____r_ccc.ccrrcrrrrrrcc
+ cricccccccrrr__r__rrgggggggcccccrrccc..ccc.c...cccccc...ccc.c.cc.........c......
+ rrc...cccccc...rcc..cc.crcccc.c.........cccccmgggggmccccrccc.crcc.ccccrrrrc.c.cc
+ cc.cccccccc..c.ccrccccccccrrrrrrrrccccccccrrrrrrrrccgggrrrgcccccccccccrrcrrrrccr
+ rrrccccc........ccc.........c.......crrccrrrc.crrrcrrrrcrrrc.ccrcccccccccccccccc
+ ccccccccicccccccccccccccccc..cccccccc.cccccccccccccccccirrrrccrcrccccccccrrrrccc
+ crrrcccrrrrrrrrricccccccccrccccrrccrrrrrciirrrrrcmmmriccccccccccc.cccccccc..cccc
+ c...ccccc...c.cccccccicrrrrrrrrrrrrrccrrrrccrrrrrrrrcccccccccccrrrrrrrcccccccc..
+ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccrccccrcrcrcc.rcrc.c
+ rc.....ccccc.......cc..cc..rcc.c.ccrrccicrccccccccrccc.rc..ccccrccccciiiiccccc.c
+ ccccccccccccccccccccccrrcccccrccccccr____ccr__irrrrccggri.igic..c..ccccccc..cccc
+ cccc....c...c..cccccccccc.c.cc...rrrrr_ccccccccrrrrcccccccccc.ccrrrrrr_c.cc.....
+ .ccrrrrrrrrrrr_rr_cccccc..ccccccrcccccrccrccccrcccccrr__rrrr_ccrcccccccccccccrcc
+ cccccccrr_rrrrr_rrrr____rcccc.c..ccccrrrrrrcccc.c.......ccccccccccccc.cccccc.c..
+ c..c.ccccccccccccc..ccccccccccrrrrrrrccccccccrrrrrrcrrrrrrrrrr_rrrr_cccrcccccc.r
+ rcccrcccccrccc.cc.crrc.ccci.........iccccccccccccccccccccrccccci.ccccrrrr_cmmmcc
+ cccrrrr_rrrrrrrrccrrccccccrccrcrcccccccrccc.cccccc.rrrrrrrrrrrcccrcc..cccccggggm
+ mmmmrrrrrrrrrrmccccccccccrrrrccccccccccc......c.....c...ccccccrc.rcccrccccrrrcrr
+ rcccccccccccc.ccccrccccccccrcccri.c.cccccccccccrcccccc.c..cc...c...rccrcccccc..c
+ ccrrccrrrrcccrrcccccccccccccccccc....cc.c.c.rcccccr_________icccrccccrrrcc.ccrrr
+ rrrrrrrrr_____rrcccc.........cc.....c.........cccccccccccccccccccccccccccccccccc
+ cccc..cccccccc.cccccc.ccc....ccc.cccccc...ccccccc..ccccrrcccccccccccccccccccrccc
+ icccrcc.........ccrccccccc......c......cccccccccccccc..cc.........ccccccccc.cccc
+ icrrrrrrrcccccrrrcccrrrrc.cccccccccccccccc..ccccrrrrrrrrrrrrrrrrrrrcmmmmmmmmrrrr
+ rrrrrrrrrrrrrmcccccccc.cccc.cc.........ccc.........c.cc.........ccccc..cc...ccc.
+ ....ccc.cc....c..ccccccccc.........cccccccccccc..cc.ccccc..ccci.cccccccccccci.ci
+ cccccccccccrrcccrccccrccccccccccccccccrccc.crcccccrcrrrrcccccc.cccccccc.ccrcrccc
+ rccccciccr_r_r_rrrrrrrrrrrrrrrrrrrrccccrrr_ccriiccciccicic..icrrcccc.crrrc.crrrr
+ rrrrrrrrccccccccccc.....cccccccccccccccccccrrrcccccccccc.ccccc...cc..cc...cc..cc
+ ccrrrrrc.rcrcccccccc........cccccc..cc...c..cccccc.cccrc..ccrrrccccccrrr_rrrr_rr
+ rrrrrrrrrrrccc.ccc.ccc..ccc.........cc.........cccccc....cccccccc.cccccccc......
+ ...ccccicccricccrrrrirrcccrrccrrcccccrriccc.ccccccccccccccc.cccccccccccccccccccc
+ ccccccccccc..ccccc.cc.c.........c.....ccccccccc..c..ccccccccccccccccccc..ccccccr
+ rccrrccccrc..crcccccccrrccccccccccccccccccccccccccccccccccccc.........c.........
+ c.........cccc.c.cccccccccc..ccccccccc..c.ccccccccccc.ccc.cccc.ccc.iccciiccccccc
+ ..ciccccccccccccccccccccccccccccccci.cccciii.c.ccc.........cccccc.i...c.cccccccc
+ c.cccciicccccccccc..ccccccccccc.cicc.cciiicc.cccc.ccccrrccrcc.cccccccicicicicccc
+ ccrrrccccccccccccccccccrrrrccccccccccccccc..cccccc.cccccccccccccccccrrrrrrcccccc
+ c.cc.........ccc.rrrrrrrrr_rrrcmmrrrrrrrrrrrmimcc..cccc.c...cc.....cc..ccccccrrc
+ rrrcccccccccrrcccccccc.ccc..criccrrrrc.cccccc.ccrriccc.crcccccrrc.ccccc.cc....rr
+ rrrrccrrcccrrrcrccrrccccc.cccrc....ccccc.........cccccccccc.cccccc...ccccccccccc
+ c.........rrrrrrrrrrrrrrrrrrrrrrrrrrr_rrrrrrrrcc.cccc.....cccccc..ccrrccc..cc...
+ ....cccccrrc.cccrrrrrrc...ccccccccccrrrrrcccc.c.....ccccccc.c.ccc.rccccc..cccccc
+ crrrirrcccrccrriccccrrrrrr_rrrccccccccccccccccccccrrrrcrrrrrr_c......cccccccc..c
+ ......cc.ccccc..cc.cccicrc..cc....ccccrrrrcccc.cc.c..cc...cc.ccccccc......c.cccc
+ ccc.c..cccrrrcccccccccccccccc..cccicc.ccccc.cccccccccccc.c.cccccc.cccccccccccrcc
+ cccccc.ccccccccc.........cccccccccccccccc.....cc..cc.irrrrrrrrrrr__rrrrccccccccc
+ crrrrrrrrcrc.cccrrrrrc..ccc........cc...cc...cc........cccc.c...c.........ccc.cc
+ ccc..cccccc....cccccccccccrrrrrcccccccc..crrrccc.c....ccccc.....c....c..cc......
+ ...rrrrc..ccccrrrccc....ggrrrrrrrrrmmmmmmmmmmmmmmmmmrrrrrimmmmrrrrrrrrmccccccccc
+ cccccccccccccccccciccrrcccccccrrrcccccrrcccccicccrrrccccccccrrrccccc.ccccccccccc
+ ccccrrc....cccrrc.........ccccccc.cccccccccccccccccicciicccccccccccccccccccccccc
+ ccccccccccccccc..ccccccccccccccccccccccccccccccccccrccccccccrrrccccccccccc..cc.c
+ ccccccccccccccccccccccccccccccrccccccccccrrrrcccccccr_c.........ccccrccccricgmmm
+ mmmmmmmmmmmmmmm..mccccgccccccccccccccccccccccc..cccgmmmmmmmmmmmmmmmmmccccccccccc
+ ccccccccc.........ccccc..cccc.ccccccccccccccccccccccc.ccccicrccccccccccccccccccc
+ cccrrrrccgggggggggcccccrrcccccccccccccccccccrrrirrrccccccccccccccccccccccccriccc
+ ..cccccrrcccccccrrrccccccccccccrccccccccci.ccccicrriccgggcccccccrrrccccccccccccc
+ ccccccccccccrrrcccccccccccc.crrrcccc.....cc..cccccccccrrrrrrrrrrrrr__ccccccccccr
+ cccccrccccccccccccccccccccrrrrccccccmm...mgccccc.ccccccccccccccccccccccccccccc..
+ .......ccccccc...cccccccccccr_rccrcmmmgmmmmcccccriigmmmmmmmmmmcccccccrccrccrcmmm
+ ccrrrgccccrrrccrcc.cccccrr_cirirrm.gcccccccc.cgmmmmmrr__mmm.mmmmmmmmmmmmmmmmmmmm
+ mmggggmmmmgmmmmmmmr_mmcmmmmmmmmmmmmgmmmmggmmmrrccrcmmggmmrmmmiggmmmmmmmmggmmrmmg
+ ggmmmr__rmgmrcccccccccccccccccccccccccccccrcccccccrcccccccr_riccrrrrccccccr___rr
+ rrrrrrrrcccccccccccccccc..ccccccccccc..ccccccc..ccc...cccccccccccccccccc....cccc
+ rrcccccccccccrrrrrcrrrrrrrrc.rrrrrrrrrr__rrr____rrrrrccccccccc..cccccccccc.ccccc
+ ccccccccc.rrrrrccccccccc.cggggcmmmmmr_rrrrrmggggggcc.crrrrrrrrrrrrrrrrrrrrr_____
+ ccggmmrmrrrrrmcmgmggggggmmcrrrrrrrccccc.cc.....cc.........cc.cccrrrrrrrrc.......
+ ..c.........rr__rrrrrrric..cc.....ccc.ccccccccccccccccrrrrrrrrrrcccrrrrrrr__cccc
+ c......c..cccicccc.ccc.ccccccccccc....ccc...cccccccccccccccccc.....ccccccc..rrrr
+ rrrrrr_c...mmmggmgggmmrrrrmcgcccccccccc.cc.ccccccccccccgmmggmmcccccc.........r__
+ _______r_________cc.cccc.......c..cc.........cccccccccccccc....ccccc.........c..
+ .......ccccc.........ccc.........ccccccccccc.........ccccccccccccccccccc.icccccc
+ cccccccccc..cccrrrrccccccccccrrrccccccrrrrcccccc...rrrr_r_cccccc.cccccc.........
+ ccccc.ccccccc.........cc...crrrr_rrrccccc....ccccccccc.........cc.cccccccc..cccc
+ ccccccrrcccccc....c.cccccccccccrrrrrrri.....ccccccccccc..cccccccccrrrrccccc.....
+ ....cccccrrrcccccc.c.cccc..rrrrriccc.........c......rrrrrrrrrrrrc.....cc.c.cccrr
+ rrrrr__rrrr__rrrrr__ccccccccccccccccccccccccccccccccccccccccrrrrrrcccrrrccccccrr
+ iccc...cccccccccccccccc..cc...crc.......ccc.cccrrrc.cc....ccccccccccc..crrcccrcc
+ c..ccrccciccccrrrrcccccccccc...ccccccccc.cc.cccc....ccc.rrrrr_c..c.ccc...cccccc.
+ ........c.......c..c.........rrrriccc.ccccc..ccc.........c....cccc.........c....
+ .c.cccc....c..c.......c....cc.........cccricrc........ccc.........cc.........ccc
+ ccccc.cccccccrricccc...ccc.ccccccccccrrrcccrccrrrrrccc..c.c.cccccc..ccccc.ccccc.
+ .cccccccc..cccc...cccc..ccccccc.cccccccccc.........cc.........ccrrrccrrcc....ccc
+ ccrrrcccccc.rrrccccccccc..ccccrrrcccrrccrrrrcc.c.ccccccrrrccccrccccccccccrrrcccc
+ ccccccrrcccccciccrrrccccccccccrrrcccccccrric.........ccccccccccc.cc..cccccc.....
+ ccc........c....cc.ccc.c.crrrcccrrrrr_______ccccccric.cccccccccc.cc.cci.c.cc.ccc
+ cccccccccrrc.ccccccci
+2021-07-07 04:59:08 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ i....iiii.iii
+2021-07-07 04:59:47 C:/Users/julie/AppData/Roaming/pico-8/carts/britney2.p8
+ iii.iii
+2021-07-07 05:00:08 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ irccccc.cc.c.....cc.........ccc.cc.cccccc.c.....cccccc........ccccccccccccccccrr
+ cccccccccccccccccc.cccccccccrrrrrrrcccccccccccccc..cccccccc..cc.cccccccccccc.cc.
+ cccccccc......ccc.cc.cccccrrrcc...ccc.........cccc...ccccccccrrrcccrrrrcccccccrr
+ rc......cccc...cc........ccc..ccc...cccc.cccc.c.cccccccrrrrrrccrrc..cc.cccrrccc.
+ cccccrrrrrrrrcc.ccccc..cc......c...cccc....cccccccccccriccccccccc.crrccccriccccc
+ cciccccrrcccrrcccccc..ccrrrrrrrrrrrr_rr_________rrr_____ccccccccccccccicccrrrc.c
+ crrrcccrrrrrcccccccccccc...cccc.c.cccccc....cc....ccc..cc.......cccccccccccccccc
+ ccc.ciccccicrr__ccc.........iiiicrrrr_______rr_________cccccccc.ccccccc..cc.cccr
+ cccc....ccccccccc...c.cccrrrcccccccccc..ccccccccccccciccci.ccccrrrccccrrrcccccci
+ ccrrrrrr___r_________rrrrcccccc.ccccccccrrrrrrcc.cccc...cccc.c....cccc.cc..ccc.c
+ c.ccccccccccc..cc.cc..cccccccciccrrrrrrccccrrrccrricccccccccccrrrrccccccccrcgmmm
+ mmmmmmrrrrrrrrrrrrrmmmmmmmmmmmmmrrrrrrrrm..mmmgggrrggggggggggggggggggmmmmmmmgggg
+ gmmggggggmmmmmmmggmmmmmmmmmmmrrrrmmggggggriggrr_ggggggggr__rrrrrrrrrgmmmmmmggmrr
+ mmmmmmmmmmgggggggggggggggggggigggggggggggggggggggggggg.ggggggggggggggggggggg..gm
+ mmmmmmmmmmcggggggrrrrrrgirrrrrrrrrgmmmmmmmmmmmmmmmmmmmmrrrrrrrrrmmgirrrrrrrrgccc
+ cccccccccrricccccccc.c.ccccccrrrrrrrcccccccccccc.c.rrrrcrrrcc.ccrrric...cccccc..
+ ......ccccccccccccccc..c..cc...cccccc.cccrrrrrccrrrr_________rc
+2021-07-07 07:32:07 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ ii
+2021-07-07 07:32:13 C:/Users/julie/AppData/Roaming/pico-8/carts/fb2.p8
+ iricii..i
+2021-07-07 07:32:40 C:/Users/julie/AppData/Roaming/pico-8/carts/fb.p8
+ ir____ii.........i...iir___rrrrrrrrcc.........cc.cg.rr_iggggggggggggg.gg..ggcmrr
+ rrr_r_r_rmmmmmggmmmmmmmggggmmmmmmmmmmgggggggggggggggggggggg.ggmmmmmmmmmmmmmmrrrr
+ mmmmmmmmggggggggigmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmrrrrrrrrrmmmmmggrrrrrgggggg
+ gmgmmmmmrrrrrrimmmmrrrimggggggcgggmrrrrrmmmmmmmmmmmmrrrrrmmmgmggmmrrrrrrmmmrrrrr
+ rrii.........ii.ii.........r_r_iii...ir________rrrrrrrrrrrrrrrrrrrrrrrrrrrrr_r__
+ rrrrrrrrrmmmm.mmm.mcmmmmmmiiii.ii
+2021-07-07 09:38:39 C:/Users/julie/AppData/Roaming/pico-8/carts/untitled_3.p8
+ iii
